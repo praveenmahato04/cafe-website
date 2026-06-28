@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sliding Pages Navbar</title>
+
+  <style>
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:Arial, sans-serif;
+    }
+
+    body{
+      overflow:hidden;
+      background:#111;
+      color:white;
+    }
+
+    /* FIXED NAVBAR */
+    nav{
+      position:fixed;
+      top:0;
+      left:0;
+      width:100%;
+      height:70px;
+      background:black;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      gap:40px;
+      z-index:1000;
+    }
+
+    nav a{
+      color:white;
+      text-decoration:none;
+      font-size:20px;
+      cursor:pointer;
+      position:relative;
+      padding-bottom:5px;
+    }
+
+    /* UNDERLINE */
+    nav a::after{
+      content:"";
+      position:absolute;
+      left:0;
+      bottom:0;
+      width:100%;
+      height:3px;
+      background:#00ffcc;
+      transform:scaleX(0);
+      transition:0.3s;
+      transform-origin:left;
+    }
+
+    nav a:hover::after{
+      transform:scaleX(1);
+    }
+
+    /* PAGE CONTAINER */
+    .container{
+      display:flex;
+      width:400vw;
+      height:100vh;
+      transition:1s ease-in-out;
+    }
+
+    /* EACH PAGE */
+    .page{
+      width:100vw;
+      height:100vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      flex-direction:column;
+      font-size:50px;
+      padding-top:70px;
+    }
+
+    #home{
+      background:#1a1a1a;
+    }
+
+    #menu{
+      background:#202040;
+    }
+
+    #location{
+      background:#204020;
+    }
+
+    #about{
+      background:#402020;
+    }
+
+    p{
+      font-size:22px;
+      margin-top:10px;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <!-- FIXED NAVBAR -->
+  <nav>
+    <a onclick="slidePage(0)">Home</a>
+    <a onclick="slidePage(1)">Menu</a>
+    <a onclick="slidePage(2)">Location</a>
+    <a onclick="slidePage(3)">About Us</a>
+  </nav>
+
+  <!-- SLIDING PAGES -->
+  <div class="container" id="slider">
+
+    <section class="page" id="home">
+      <h1>Home</h1>
+      <p>Welcome to homepage</p>
+    </section>
+
+    <section class="page" id="menu">
+      <h1>Menu</h1>
+      <p>Our menu items</p>
+    </section>
+
+    <section class="page" id="location">
+      <h1>Location</h1>
+      <p>Find our location</p>
+    </section>
+
+    <section class="page" id="about">
+      <h1>About Us</h1>
+      <p>Know more about us</p>
+    </section>
+
+  </div>
+
+  <script>
+
+    function slidePage(index){
+
+      const slider = document.getElementById("slider");
+
+      slider.style.transform = `translateX(-${index * 100}vw)`;
+
+    }
+
+  </script>
+
+</body>
+</html>

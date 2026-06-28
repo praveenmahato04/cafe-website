@@ -1,0 +1,224 @@
+  *{
+            margin: 0px;
+            border: border-box;
+        }
+        .menu-site{
+            background-color: #f4d8dd42;
+        }
+        .menu-title{
+            text-align: center;
+            padding-top: 30px;
+        }
+         .menu-title p{
+            color: rgb(144, 125, 101);
+         }
+         .middle-leftright{
+            display: flex;
+            justify-content: space-evenly;
+         }
+         .middle-leftslide{
+            /* border: 2px solid black;s */
+            height: 350px;
+            width: 600px;
+            margin-top: 50px;
+         }
+         .Epresso-icons{
+            display: flex;
+            font-family: 'Times New Roman', Times, serif;
+         }
+          .Epresso-icons i{
+            font-size: 23px;
+            font-weight: 800;
+         }
+         .Epresso-function{
+            padding-top: 25px;
+                    
+        }
+         .Epresso-function span{
+            background-color: rgb(132, 236, 203);
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .middle-number{
+            padding-top: 120px;
+        }
+        .middle-rightslide{
+            border: 2spx solid wheat;
+            height: 300px;
+            width: 350px;
+            margin-right: 60px;
+            margin-top: 50px;
+            border-radius: 10px;
+            background-color:  #ffc0cb42;
+        }
+        .pastries-icon{
+            display: flex;
+            padding-top: 20px;
+            padding-left: 15px;
+            gap: 10px;
+        }
+        .pastries-icon i{
+            padding-top: 5px;
+        }
+        .croissant-function{
+            padding-top: 30px;
+            padding-left: 15px;
+        }
+        .croissant{
+            display: flex;
+            justify-content: space-between;
+            padding-right: 10px;
+        }
+         .croissant-function p{
+            color:rgb(144, 125, 101) ;
+            font-size: 15px;
+            padding-top: 5px;
+         }
+        .middle-footer{
+            border-top: 2px solid wheat;
+            margin-top: 10px;
+           text-align: center;
+           padding-top: 20px;
+        }
+        .seasonal-menu{
+            height: 180px;
+            width: 350px;
+            border: 2px solid wheat;
+            margin-left: 120px;
+            background-color: white;
+            border-radius: 10px;
+        }
+        .seasonal-magic{
+            display: flex;
+            font-family: 'Times New Roman', Times, serif;
+            padding-top:20px;
+            gap: 5px;
+            padding-left: 15px;
+        }
+        .seasonal-magic i{
+            padding-top: 10px;
+            font-size: 10px;
+        }
+        .seasonal-text{
+            width: 200px;
+            position:relative;
+            bottom:95px;
+            
+        }
+        .seasonal-text h3{
+           padding-top: 10px;
+           font-size: 18px;
+           padding-left: 15px;
+        }
+        .seasonal-text p{
+           padding-top: 10px;
+           font-size: 15px;
+           padding-left: 15px;
+           text-align: justify;
+        }
+        .mapple-coffeepic{
+            background-image: url(hero6.jpg.webp);
+            width: 110px;
+            height: 100px;
+            background-size: cover;
+            margin-left: 230px;
+            border-radius: 5px;
+            
+        }
+        .savory-bits{
+            position: absolute;
+            right:180px;
+            
+        }
+        .savory-icon{
+            display: flex;
+            padding-bottom: 20px;
+            font-family: 'Times New Roman', Times, serif;
+            gap: 5px;
+        }
+        .savory-icon i{
+            margin-top: 5px;
+        }
+        .savory{
+            background-image: url(hero7.jpg);
+            height: 120px;
+            width: 300px;
+            background-size: cover;
+            border-radius: 5px;
+        }
+        .savory-text{
+            margin-top: 20px;
+        }
+        .savory-text span{
+            font-size: 18px;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 700;
+          
+        }
+         .savory-text a{
+            padding-left: 60px;
+            font-size: 11px;
+         }
+          .savory-text p{
+            font-size:12px ;
+            font-family: 'Times New Roman', Times, serif;
+          }
+          
+          .foot-key{
+            height: 200px;
+            border-top: 1px solid black;
+            margin-top: 150px;
+            padding-top: 50px;
+            
+          }
+           .foot-key h3{
+            text-align: center;
+            padding-bottom: 50px;
+           }
+        
+          .foot-icon{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 180px;
+          }
+          .text-icon{
+            border: 2px solid black;
+            border-radius: 25px;
+            height: 50px;
+            width: 50px;
+            
+             
+          }
+           .text-icon p{
+           display: flex;
+           justify-content: center;
+           align-content: center;
+           margin-top: 15px;
+           }
+           .circle-icon span{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            text-align: center;
+           }
+           .last3{
+            display: flex;
+            align-items: center;
+            height: 50px;
+            text-align: center;
+              
+
+           }
+           .copyright-icon{
+             position: absolute;
+             margin-left: 110px;
+             display: flex;
+
+          }
+          .location-icon{
+           display: flex;
+           position: absolute;
+           right: 40px;
+           
+          
+          }

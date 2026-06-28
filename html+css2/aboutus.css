@@ -1,0 +1,308 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
+}
+body{
+    background-color: #f4d8dd42;
+}
+.main-seaction{
+    height: 500px;
+    margin-left:60px;
+    margin-right:60px;
+    margin-top: 60px;
+    background-color: rgb(239, 241, 243);
+    
+
+}
+.main-left{
+    position: absolute;
+    left: 100px;
+    top: 320px;
+    width: 500px;
+    /* border: 2px solid black; */
+}
+.main-left h4{
+    color: rgb(159, 123, 56);
+    font-weight: 700;
+}
+.main-left h3{
+    font-family:'Times New Roman', Times, serif ;
+    padding-top:10px ;
+}
+.main-left p{
+    text-align: justify;
+    padding-top: 10px;
+    color: rgb(108, 137, 127);
+    padding-bottom: 30px;
+}
+.main-left span{
+    padding-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(109, 102, 88);
+}
+.main-right{
+    background-image: url(vscoffee.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    width: 550px;
+    position: absolute;
+    right: 150px;
+    top: 200px;
+    border-radius: 10px;
+   
+}
+.notice-box{
+    background-color: bisque;
+    height: 60px;
+    width: 170px;
+    font-size: 13px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 250px;
+    
+    align-content: center;
+} 
+
+.notice-box p{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+/* .mission-section{
+    
+} */
+.mission{
+    font: 800;
+    font-size: 20px;
+    position: absolute;
+    top: 600px;
+    left: 750px;
+    text-decoration: underline;
+    
+}
+.mission-left{
+    height: 200px;
+    width: 600px;
+    border-radius:10px ;
+    position: absolute;
+    top: 650px;
+    left: 150px;
+    background-color: white;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.mission-left h3{
+    padding-top: 10px;
+}
+.mission-left p{
+    color:rgb(108, 137, 127) ;
+    width: 500px;
+    padding-top: 10px;
+  
+}
+.per-section{
+    display: flex;
+    padding-top: 30px;
+    column-gap: 20px;
+}
+.per-section h3{
+    color: aquamarine;
+   
+}
+.mission-right{
+    height: 150px;
+    width: 350px;
+    border-radius:10px ;
+    position: absolute;
+    top: 650px;
+    right: 280px;
+    background-color: brown;
+    padding-top: 60px;
+    padding-left: 30px;
+    
+}
+.mission-right h4{
+    margin-top: 10px;
+    color: white;
+    font-weight: 600
+}
+.mission-right p{
+    color: white;
+    width: 300px;
+    margin-top: 10px;
+}
+.mission-place{
+    height: 150px;
+    width: 350px;
+    border-radius:10px ;
+    position: absolute;
+    top: 900px;
+    left: 150px;
+    background-color: rgb(206, 242, 192);
+    padding-top: 60px;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+.mission-place p{
+    width: 300px;
+    margin-top: 10px;
+}S
+.mission-place i{
+    margin-top: 40px;
+    margin-left: 300px;
+}
+.mission-source{
+    background-image: url(vscoffeeleaf.jpg);
+    height: 210px;
+    width: 600px;
+    border-radius:10px ;
+    position: relative;
+    top: 340px;
+    left: 800px;
+    background-color: white;
+    background-repeat:no-repeat;
+    background-size:cover;
+    
+}
+.source-text{
+    position: absolute;
+    color: white;
+    margin-top: 140px;
+    margin-left: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+.main2-section{
+    position: absolute;
+    top: 950px;
+}
+.img-section{
+    position: absolute;
+    top: 330px;
+    left: 900px;
+    display: flex;
+    column-gap: 40px;
+    
+}
+.main-img1{
+    height: 250px;
+    width: 150px;
+    background-image: url(vscoffee3.jpg);
+    border-radius: 10px;
+}
+.main-img2{
+    height: 250px;
+    width: 150px;
+    background-image: url(vscoffee4.jpg);
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.main-img3{
+    height: 250px;
+    width: 150px;
+    background-image: url(hero1.webp);
+    border-radius: 10px;
+} 
+.master-section{
+    position: absolute;
+    top: 1700px;
+    height: 350px;
+    width: 1550px;
+     margin-left:60px;
+    margin-right:60px;
+    background-color: rgb(222, 222, 244);
+    border-radius: 10px;
+    
+}
+.master-section h2{
+    padding-top: 20px;
+    text-align: center;
+    
+}
+.master-section span{
+    margin-left: 650px;
+    margin-top: 10px;
+}
+.worker-pic{
+    display: flex;
+    column-gap: 150px;
+    padding-top: 40px;
+    justify-content: center;
+}
+.founder{
+    height: 180px;
+    width: 150px;
+    background-image: url(founder.jpg);
+    background-size: cover;
+    border-radius: 5px;
+}
+.director{
+     height: 180px;
+    width: 150px;
+    background-image: url(founder.jpg);
+    background-size: cover;
+    border-radius: 5px;
+}
+.heads{
+     height: 180px;
+    width: 150px;
+    background-image: url(founder.jpg);
+    background-size: cover;
+    border-radius: 5px;
+}
+.sustainability{
+     height: 180px;
+    width: 150px;
+    background-image: url(founder.jpg);
+    background-size: cover;
+    border-radius: 5px;
+}
+.name-position{
+    padding-top: 190px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.name-position p{
+    color: rgb(31, 112, 85);
+}
+.experiance{
+    height: 250px;
+    width:1550px;
+    position: absolute;
+    top: 2200px;
+    margin-left:60px;
+    margin-right:60px;
+    border-radius: 10px;
+    background-color: rgb(232, 212, 188);
+}
+.experiance h3{
+    text-align:center;
+    padding-top:40px;
+}
+.experiance p{
+    width:450px;
+    text-align:center;
+    padding-top:40px;
+    padding-left:550px;
+}
+.button-section{
+    padding-left:625px;
+    padding-top:40px;
+    
+}
+.button-section button{
+    width: 150px;
+    height:40px;
+    border-radius:20px;
+    background-color:rgb(232, 212, 188);
+    border-color:blue;
+    color: blue;
+    font-weight: 700;
+
+}
+.button-section :hover{
+    background-color:brown;
+    color: white;
+    
+}
